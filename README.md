@@ -1,14 +1,16 @@
 # twitter_clone Meower for cats
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was 
 
 ## Install dependencies
    `npm install`
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run server on localhost:5000:
 
-### `npm start`
+Run client `index.html` file using live server
+
+### `nodemon server.js`
 
 
 ![image of clone](https://github.com/axaysushir/twitter_clone/blob/master/Picture3.png)

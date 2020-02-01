@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">😺 Meower for Cats 🐱‍👓 </h1>
+        <main>
+            <form action="#" class="form-group form">
+                <div class="error-message"></div>
+                <label for="name">Name</label>
+                <input class="form-control" type="text" id="name" name="name">
+                <label for="content">Message</label>
+                <textarea class="form-control type="text" id="content" name="content"></textarea>
+                <button class="btn btn-primary btn-rounded">Send Your Tweet 📤</button>
+            </form>
+            
+            <div class="mews">  
+            </div>
+            <div class="loading">
+                <img src="../giphy2.gif" alt="">
+            </div>
+
+            <div class="button-container">
+                <!-- <button id="loadmoreButton" class="btn-primary" style="visibility: hidden;">Load More Mews</button> -->
+                <p class="loadMore">Loading...</p>
+            </div>
+        </main>
+    </header>
+
+    <script src="client.js"></script>
+</body>
+</html>

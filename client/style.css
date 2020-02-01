@@ -1,0 +1,53 @@
+body {
+    background-color: cornflowerblue;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title{
+    text-align: center;
+}
+
+.form,.loading {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.loading {
+    text-align: center;
+}
+
+input, textarea {
+    border-radius: 5px;
+}
+.mews {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.mews > div {
+    background: hsl(0, 0%, 95%);
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.mews > div > h3 {
+    word-wrap: break-word;
+}
+
+.mews > div > p {
+    word-wrap: break-word;
+}
+
+.mews > div:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.btn {
+    margin: 1em;
+}
